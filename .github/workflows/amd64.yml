@@ -5,7 +5,7 @@ on:
       docker_images:
         description: '请填写docker镜像名称 多个用英文逗号分开'
         required: true
-        default: 'allinone'  # 设置默认的 Docker 镜像列表
+        default: 'allinone:latest'  # 设置默认的 Docker 镜像列表
 
 jobs:
   pull_and_package:
